@@ -77,7 +77,7 @@ Depois listamos com o `ng-repeat`:
 ###RUN
 Para iniciar o projeto rode:
 
-    npm install
+    npm install && node app
 
 Entre na URL 
 

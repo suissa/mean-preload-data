@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  // "scripts": {
+  //   "import": "mongoimport --db workshop-bemean --collection beers beers.json"
+  // },
+  "dependencies": {
+    "body-parser": "^1.0.2",
+    "errorhandler": "*",
+    "express": "~4.1.1",
+    "jade": "~0.31.2",
+    "method-override": "^1.0.0",
+    "morgan": "^1.0.0",
+    "mongoose": "~3.8.13"
+  }
+}

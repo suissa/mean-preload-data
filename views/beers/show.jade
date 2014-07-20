@@ -1,0 +1,33 @@
+h2 Informações da cerveja
+
+p
+  b
+    | Nome: 
+  {{ cerveja.name }}
+  br
+  b
+    | Preço: 
+  {{ cerveja.price }}
+  br
+  b
+    | Teor alcoólico:
+  {{ cerveja.alcohol }}
+  br
+  b
+    | Tipo: 
+  {{ cerveja.category }}
+  br
+  b
+    | Descrição: 
+  {{ cerveja.description }}
+  br
+
+p 
+  a(data-ng-href='/beers/{{cerveja._id}}/edit') EDITAR
+  br 
+  a(data-ng-href='/beers/{{cerveja._id}}/remove') DELETAR
+
+
+
+
+

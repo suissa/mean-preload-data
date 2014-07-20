@@ -1,0 +1,12 @@
+h2 Listagem das Cervejas
+
+table
+  thead
+    tr 
+      th(data-ng-click='ordenar("name")') Nome
+      th(data-ng-click='ordenar("price")') Preço
+  tbody
+    tr(data-ng-repeat='beer in cervejas | orderBy:predicate:reverse') 
+      td 
+        a(data-ng-href='/beers/{{ beer._id }}') {{ beer.name }}
+      td {{ beer.price }}

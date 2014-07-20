@@ -1,0 +1,12 @@
+h2 Pre-load beers
+
+h2 Listagem com Jade
+blockquote= JSON.stringify(beers)
+ul
+for beer in beers
+  li= beer.name
+
+h2 Listagem com Angular
+blockquote(ng-init='atualizarBeers('+JSON.stringify(beers)+')') {{beers}}
+ul
+  li(ng-repeat='beer in beers') {{beer.name}}

@@ -1,0 +1,38 @@
+h2 Edição de cerveja
+h3 {{msg}}
+
+form 
+  .form-group
+    label Name: 
+    input.form-control(name='name', type='text',
+                        data-ng-model='cerveja.name')
+
+  .form-group
+    label Category: 
+    input.form-control(name='category', type='text',
+                        data-ng-model='cerveja.category')
+
+  .form-group
+    label Price: R$
+    input.form-control(name='price', type='text',
+                        data-ng-model='cerveja.price')
+
+  .form-group
+    label Alcohol: 
+    input.form-control(name='alcohol', type='text',
+                        data-ng-model='cerveja.alcohol')
+
+  .form-group
+    label Description: 
+    input.form-control(name='description', type='text',
+                        data-ng-model='cerveja.description')
+  .form-group
+    button.btn.btn-lg(data-ng-click='save(cerveja)') Salvar
+
+
+
+
+
+
+
+

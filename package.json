@@ -11,7 +11,8 @@
     "express": "~4.1.1",
     "jade": "~0.31.2",
     "method-override": "^1.0.0",
+    "mongoose": "~3.8.13",
     "morgan": "^1.0.0",
-    "mongoose": "~3.8.13"
+    "sequence": "^3.0.0"
   }
 }

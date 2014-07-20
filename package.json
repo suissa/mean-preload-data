@@ -2,9 +2,9 @@
   "name": "application-name",
   "version": "0.0.1",
   "private": true,
-  // "scripts": {
-  //   "import": "mongoimport --db workshop-bemean --collection beers beers.json"
-  // },
+  "scripts": {
+    "install": "node app"
+  },
   "dependencies": {
     "body-parser": "^1.0.2",
     "errorhandler": "*",
